@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 400px;
+    height: 600px;
+    background-color: grey;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap:17px;
+}
+.disp{
+    background-color: greenyellow;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+.btns{
+    background-color: antiquewhite;
+    height: 503px;
+    width: 400px;
+    box-sizing: border-box;
+    display:flex;
+    flex-wrap: wrap;
+}
+.cell{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-size: 50px;
+    cursor:pointer;
+}
